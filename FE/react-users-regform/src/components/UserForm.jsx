@@ -56,7 +56,7 @@ const UserForm = ({ fetchUsers, editUser, setEditUser }) => {
 
   return (
     <>
-      <h3>{editUser ? "Update User" : "Create New User"}</h3>
+      <h3>Create New User</h3>
 
       <form onSubmit={handleSubmit}>
         <div>
